@@ -1,7 +1,8 @@
 //if/else onditional
-public fn run() {
+public fn run () {
 
     fn main(){
+
         let age : i32 = 21;
         let check_id :bool = true;
 
@@ -15,19 +16,8 @@ public fn run() {
             println!("YOU ARE ARRESTED");
         }
     
-        //while conditional
-        let mut a : i32= 33;
     
-        while a >= 20 {
-            a = a-2;
-            println!("NUMBER {}", a);
-        }
-        
     
     }
 
-    
-    
-           
 }
-

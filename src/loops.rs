@@ -6,13 +6,13 @@
 pub fn run(){
 
     let mut a : i32= 33;
+        
     
     while a >= 20 {
         a = a-2;
         println!("NUMBER {}", a);
     }
 
-    let x  = 0 ;
     for x in 0..100 {
 
         if x % 15 == 0 {
@@ -28,6 +28,24 @@ pub fn run(){
             println!("NUMBER {}", x);
         }
     }
+
+
+    //Loop
+    let mut count = 0;
+    
+    loop {
+        count += 1;
+        println!("NUMBERS:{} ",count);
+
+        if count == 20 {
+            break;
+        }
+
+            
+    
+    }
 }
+
+
 
 
