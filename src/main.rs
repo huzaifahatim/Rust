@@ -1,4 +1,5 @@
-mod structs;
+mod enums;
+//mod structs;
 //mod point_reference; 
 //mod loops;
 //mod conditional;
@@ -7,7 +8,8 @@ mod structs;
 //mod variable;
 
 fn main() {
-    structs::run();
+    enums::run();
+    //structs::run();
     //point_reference::run();
     //loops::run(); 
     //conditional::run();
@@ -15,3 +17,4 @@ fn main() {
     //data_types::run();
     //variable::run();
 }
+
