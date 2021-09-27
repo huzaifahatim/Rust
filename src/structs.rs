@@ -26,7 +26,7 @@ pub fn run () {
 
     //println!("The area is {} square pixels.",area(&area1));
     //println!("The component of area is {:?} .", area1 );//Using  Debug trait
-    println!("The component of area is {}length , breath {} ,height {}", area1.0 , area1.1 ,area1.2); 
+    println!("The component of area is {} length , breath {} and height {}", area1.0 , area1.1 ,area1.2); 
 
 /*fn area(area: &AREA) -> u32 {
         area.breath * area.height * area.length
