@@ -1,5 +1,5 @@
-//if/else onditional
-public fn run () {
+// if/else onditional
+pub fn run () {
 
     fn main(){
 

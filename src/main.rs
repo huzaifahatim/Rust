@@ -1,3 +1,5 @@
+
+// mod generic_type;
 // mod modules;
 //mod error_handlings;
 //mod modules;
@@ -18,7 +20,13 @@
 
 // use modules::movies::play;
 
-// fn main() {
+fn main() {
+    
+
+  
+
+    
+
     // modules::movies::play("Arive".to_string(),"BadBoys".to_string(), "Cats Drive".to_string() , "Dictator".to_string());
     
 
@@ -46,11 +54,11 @@
     
 
 
-// }
-fn main() {
+}
+/*fn main() {
     panic!("Hello");
     println!("End of main"); //unreachable statement
- }
+ }*/
 
 
 
